@@ -19,26 +19,33 @@
                                 <p>{{ post.description }}</p>
                             {% endif %}
                             <ul class="list-inline item-details">
-                                {% if post.client %}
-                                    <li>Client:
-                                        <strong><a href="http://startbootstrap.com">{{ post.client }}</a>
+                                {% if post.skills %}
+                                    <li>Using:
+                                        <strong>{{ post.skills }}
                                         </strong>
                                     </li>
                                 {% endif %}
                                 {% if post.project-date %}
-                                    <li>Date:
-                                        <strong><a href="http://startbootstrap.com">{{ post.project-date }}</a>
+                                    <li>Data:
+                                        <strong>{{ post.project-date }}
                                         </strong>
                                     </li>
                                 {% endif %}
                                 {% if post.category %}
-                                    <li>Service:
-                                        <strong><a href="http://startbootstrap.com">{{ post.category }}</a>
+                                    <li>Category:
+                                        <strong>{{ post.category }}
                                         </strong>
                                     </li>
                                 {% endif %}
                             </ul>
-                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+
+                            {% if post.github %}
+                                <button type="button" 
+                                class="btn btn-default" 
+                                onclick="location.href='{{ post.github }}'">
+                                <i class="fa fa-bookmark"></i> Github 저장소</button>
+                            {% endif %}
+
                         </div>
                     </div>
                 </div>
