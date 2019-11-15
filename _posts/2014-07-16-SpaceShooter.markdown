@@ -2,7 +2,7 @@
 layout: default
 modal-id: 3
 date: 2019-11-15
-img: cake.png
+img: p003.png
 alt: image-alt
 project-date: October 2019
 github: https://github.com/QuadraplePlus/SuperContact
