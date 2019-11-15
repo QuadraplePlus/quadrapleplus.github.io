@@ -1,0 +1,13 @@
+---
+layout: default
+modal-id: 1
+date: 2019-11-15
+img: p02.png
+alt: image-alt
+project-date: October 2019
+github: https://github.com/QuadraplePlus/SuperContact
+skills: Start Bootstrap
+category: UI
+description: Amazing Compactable Switch 는 간편하면서도 스위치로서의 기능을 가장 충실히 수행하는 스위치 입니다. 스위치를 배치하고 , 필요한 오브젝트를 제어하면 됩니다.
+
+---
